@@ -64,7 +64,7 @@ const MyWork = () => {
             <div className="card-footer">
               <a href={proj.github} target="_blank" rel="noreferrer">
                 <img
-                  src="https://cdn.simpleicons.org/github/000000"
+                  src="https://cdn.simpleicons.org/github/ffffff"
                   alt="GitHub"
                   className="github-icon"
                 />
