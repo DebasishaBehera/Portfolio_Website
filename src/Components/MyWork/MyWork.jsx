@@ -13,7 +13,7 @@ const projects = [
     tech: ["HTML", "CSS", "JS"],
     description:
       'Simon Says is a classic memory and reflex game where players follow commands only if prefixed with "Simon says." Ignoring or wrongly acting results in elimination.',
-    github: "#",
+    github: "https://github.com/DebasishaBehera/Simon_Says_Game",
     live: "https://debasishabehera.github.io/Simon_Says_Game/",
   },
   {

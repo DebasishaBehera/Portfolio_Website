@@ -22,7 +22,7 @@
 }
 
 .cards {
-  background-color: black;
+  background: linear-gradient(267deg, #1a1515 0.36%, #000000 102.06%);
   padding: 10px;
   border-radius: 16px;
   width: 350px;
