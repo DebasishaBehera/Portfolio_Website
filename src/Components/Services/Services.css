@@ -1,0 +1,60 @@
+ .services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 70px 10%;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  background-color: #161513;
+  padding: 40px;
+  /* min-height: 100vh; */
+  box-sizing: border-box;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  
+}
+
+.cards {
+  background-color: black;
+  padding: 10px;
+  border-radius: 16px;
+  width: 350px;
+  height: 240px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cards h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 12px;
+  /* background-color: #0f172a; */
+  border: 1px solid #334155;
+  font-size: 15px;
+}
+
+.badge img {
+  width: 25px;
+  height: 25px;
+}
