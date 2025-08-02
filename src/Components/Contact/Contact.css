@@ -117,6 +117,8 @@
     .contact-right label{
         font-size: 14px;
     }
-   
+    .contact-submit {
+        padding: 15px 30px;
+    }
     
 }

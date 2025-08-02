@@ -5,6 +5,7 @@ import underline from "../../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
+import themes_pattern from "../../assets/theme_pattern.svg";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -58,8 +59,18 @@ const Navbar = () => {
           </AnchorLink>
           {menu === "contact" ? <img src={underline} alt="" /> : <></>}
         </li>
+        <li>
+          <a
+            className="anchor-link nav-git"
+            href="https://github.com/DebasishaBehera"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p onClick={() => setMenu("navbar")}>GitHub Profile</p>
+          </a>
+          {menu === "navbar" ? <img src={underline} alt="" /> : null}
+        </li>
       </ul>
-      {/* <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#https://github.com/DebasishaBehera'>GitHub</AnchorLink></div> */}
       <div className="nav-connect">
         <a
           className="anchor-link git-link"

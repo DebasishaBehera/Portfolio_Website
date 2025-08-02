@@ -26,6 +26,11 @@
   cursor: pointer;
   transition: 0.5s;
 }
+
+.nav-git {
+  display: none;
+}
+
 .githubicon {
   width: 30px;
   height: 30px;
@@ -35,6 +40,7 @@
 .logo {
   width: 120px;
 }
+
 .nav-connect:hover {
   transform: scale(1.05);
 }
@@ -74,7 +80,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    margin: 20px 6%;
+    margin: 20px 4%;
   }
   .nav-connect {
     display: none;
@@ -110,5 +116,9 @@
     padding-left: 50px;
     flex-direction: row;
     gap: 20px;
+  }
+
+  .nav-git {
+    display: block;
   }
 }
