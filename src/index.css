@@ -37,12 +37,4 @@ body {
     width: 100px;
     right: -40px;
   }
-  .about,
-  .mywork,
-  .services,
-  .contact,
-  .footer {
-    margin-left: 2%;
-    margin-right: 2%;
-  }
 }
