@@ -81,6 +81,7 @@
 @media (max-width: 768px) {
   .navbar {
     margin: 0 4% 20px 4%;
+    height: 4rem;
   }
   .nav-connect {
     display: none;
