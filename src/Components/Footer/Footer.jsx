@@ -44,7 +44,11 @@ const Footer = () => {
             >
               <i class="fa-brands fa-discord"></i>
             </a>
-            <a class="github" href="https://github.com/JaganParida">
+            <a
+              class="github"
+              href="https://github.com/DebasishaBehera"
+              target="_blank"
+            >
               <i class="fa-brands fa-github"></i>
             </a>
           </div>

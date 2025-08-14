@@ -89,13 +89,8 @@ const MyWork = () => {
           rel="noopener noreferrer"
         >
           <span>Show More</span>
-          <img
-            src={arrow_icon}
-            alt="arrow"
-          />
+          <img src={arrow_icon} alt="arrow" />
         </a>
-        {/* <span>Show More</span>
-        <img src={arrow_icon} alt="" /> */}
       </div>
     </div>
   );
